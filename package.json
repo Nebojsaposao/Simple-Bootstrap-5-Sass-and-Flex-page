@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "compile-main": "sass scss/main.scss:css/main.css",
-  "compile-custom": "sass scss/custom.scss:css/custom.css",
-  "watch-main": "chokidar \"scss/main.scss\" -c \"npm run compile-main\"",
-  "watch-custom": "chokidar \"scss/custom.scss\" -c \"npm run compile-custom\"",
-  "start": "npm-run-all --parallel watch-main watch-custom"
+    "compile-main": "sass scss/main.scss:css/main.css",
+    "compile-custom": "sass scss/custom.scss:css/custom.css",
+    "watch-main": "chokidar \"scss/main.scss\" -c \"npm run compile-main\"",
+    "watch-custom": "chokidar \"scss/custom.scss\" -c \"npm run compile-custom\"",
+    "start": "npm-run-all --parallel watch-main watch-custom"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
