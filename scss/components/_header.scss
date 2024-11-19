@@ -1,0 +1,35 @@
+// Styling header
+.main-header{
+  background-image: url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+
+  &-content{
+   text-align: center;
+   padding: 120px 30px 50px 30px;
+
+   & h1{
+    color: #fff;
+    font-size: 35px;
+   }
+
+   & p{
+    color: #9d9c9c;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 0;
+   }
+
+   & .btn-header{
+    background-color: #fff;
+    color: #9acd32;
+
+    &:hover{
+    background-color: #9acd32;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+   }
+   
+  }
+}

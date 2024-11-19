@@ -5,8 +5,8 @@
   "scripts": {
     "compile-main": "sass scss/main.scss:css/main.css",
     "compile-custom": "sass scss/custom.scss:css/custom.css",
-    "watch-main": "chokidar \"scss/main.scss\" -c \"npm run compile-main\"",
-    "watch-custom": "chokidar \"scss/custom.scss\" -c \"npm run compile-custom\"",
+    "watch-main": "chokidar \"scss/main.scss\" \"scss/components/**/*.scss\" -c \"npm run compile-main\"",
+    "watch-custom": "chokidar \"scss/custom.scss\" \"scss/components/**/*.scss\" -c \"npm run compile-custom\"",
     "start": "npm-run-all --parallel watch-main watch-custom"
   },
   "keywords": [],

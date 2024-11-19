@@ -1,0 +1,21 @@
+// Styling navigation
+.navbar{
+  
+  &-brand{
+    margin-top: 2px;
+    text-transform: uppercase;
+    color: #9acd32;
+    font-size: 1.5rem;
+  }
+  &-toggler{
+    padding: 5px 10px;
+    border: 1px solid #9d9c9c;
+    border-radius: 5px;
+    outline: none;
+
+    &-icon{
+      width: 25px;
+      height: 25px;
+  }
+  }
+}

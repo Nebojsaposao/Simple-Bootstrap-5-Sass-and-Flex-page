@@ -1,4 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
-
+@import "./components/global";
+@import "./components/navigation";
+@import "./components/header";
+@import "./components/intro";
+@import "./components/contentSection";
+@import "./components/contentSection2";
+@import "./components/promotions";
