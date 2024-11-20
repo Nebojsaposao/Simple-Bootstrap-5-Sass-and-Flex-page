@@ -74,6 +74,12 @@
 }
 
 @media screen and (min-width:1200px){
+// Global
+  .btn{
+    font-size: 26px;
+    padding: 10px 25px;
+  }
+
   .main-header{
     
     &-content{
@@ -137,5 +143,17 @@
       justify-content: center;
       align-items: center;
     }
+  }
+
+  .content3{
+
+  &__section-heading{
+    font-size: 32px;
+    
+  }
+
+    & .text-light{
+    font-size: 26px;
+   }
   }
 }

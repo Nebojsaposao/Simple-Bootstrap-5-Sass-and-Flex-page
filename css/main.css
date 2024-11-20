@@ -12125,6 +12125,10 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .btn {
+    font-size: 26px;
+    padding: 10px 25px;
+  }
   .main-header-content h1, .main-header-content .h1 {
     font-size: 120px;
     line-height: 1.1;
@@ -12161,6 +12165,12 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .content3__section-heading {
+    font-size: 32px;
+  }
+  .content3 .text-light {
+    font-size: 26px;
   }
 }
 
