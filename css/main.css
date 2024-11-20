@@ -12053,4 +12053,28 @@ img {
   line-height: 1.5;
 }
 
+.main-footer__contact {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: #9acd32;
+}
+.main-footer__contact-section-heading {
+  color: #fff;
+}
+.main-footer__contact .text-light {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.main-footer__contact .text-light svg {
+  margin: 0 auto;
+}
+.main-footer__info {
+  padding-top: 1.5rem;
+}
+.main-footer__info .text-muted {
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */

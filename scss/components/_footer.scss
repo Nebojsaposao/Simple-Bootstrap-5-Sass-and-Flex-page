@@ -1,0 +1,33 @@
+.main-footer{
+  
+
+  &__contact{
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #9acd32;
+
+    &-section-heading{
+      color: #fff;
+    }
+
+    & .text-light{
+      display: flex;
+      flex-direction: column;
+      font-weight: 500;
+      line-height: 1.4;
+
+    & svg{
+      margin: 0 auto;
+    }
+  }
+  }
+
+  
+  &__info{
+      padding-top: 1.5rem;
+
+      & .text-muted{
+        text-align: center;
+      }
+  }
+}
