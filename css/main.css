@@ -12111,11 +12111,23 @@ img {
   .content .btn {
     margin-left: 0;
   }
+  .content .col-768 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .content2 .text-muted {
     font-size: 21px;
   }
   .content2 .btn {
     margin-left: 0;
+  }
+  .content2 .col-768 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .content3 .text-muted {
     font-size: 21px;
@@ -12148,23 +12160,11 @@ img {
   .content .text-muted {
     font-size: 26px;
   }
-  .content .col-1200 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .content2__section-heading {
     font-size: 32px;
   }
   .content2 .text-light {
     font-size: 26px;
-  }
-  .content2 .col-1200 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .content3__section-heading {
     font-size: 32px;
