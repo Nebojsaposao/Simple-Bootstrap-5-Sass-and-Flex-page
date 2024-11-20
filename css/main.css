@@ -12034,4 +12034,23 @@ img {
   background-position: center;
 }
 
+.content3 {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.content3__section-heading {
+  display: flex;
+  flex-direction: column;
+  color: #222;
+  font-size: 25px;
+  line-height: 1.1;
+}
+.content3__section-heading svg {
+  margin: 0 auto;
+}
+.content3 .text-muted {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /*# sourceMappingURL=main.css.map */
