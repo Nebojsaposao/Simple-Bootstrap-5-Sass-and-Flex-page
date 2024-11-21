@@ -1,22 +1,24 @@
-.content3{
-  text-align: center;
-  padding: 1.5rem 0;
+/** @format */
 
-   &__section-heading{
-    display: flex;
-    flex-direction: column;
-    color: #222;
-    font-size: 25px;
-    line-height: 1.1;
+.content3 {
+	padding: 1.5rem 0;
+	text-align: center;
 
-    & svg{
-      margin: 0 auto;
-    }
-  }
+	&__section-heading {
+		color: #222;
+		display: flex;
+		flex-direction: column;
+		font-size: 25px;
+		line-height: 1.1;
 
-   & .text-muted{
-    // color: rgba(255, 255, 255, .7)!important;
-    font-size: 16px;
-    line-height: 1.5;
-  }
+		& svg {
+			margin: 0 auto;
+		}
+	}
+
+	& .text-muted {
+		// color: rgba(255, 255, 255, .7)!important;
+		font-size: 16px;
+		line-height: 1.5;
+	}
 }

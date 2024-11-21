@@ -1,20 +1,22 @@
-.intro{
-  background-color: #9acd32;
-  text-align: center;
-  padding: 3rem 0;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+/** @format */
 
-  &__section-heading{
-    font-size: 25px;
-    margin-top: 1.5rem;
-    color: #fff;
-    line-height: 1.1;
-  }
+.intro {
+	background-color: #9acd32;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding: 3rem 0;
+	text-align: center;
 
-  & .text-muted{
-    color: rgba(255, 255, 255, .7) !important;
-    font-size: 16px;
-    line-height: 1.5;
-  }
+	&__section-heading {
+		color: #fff;
+		font-size: 25px;
+		line-height: 1.1;
+		margin-top: 1.5rem;
+	}
+
+	& .text-muted {
+		color: rgb(255 255 255 / 70%) !important;
+		font-size: 16px;
+		line-height: 1.5;
+	}
 }
