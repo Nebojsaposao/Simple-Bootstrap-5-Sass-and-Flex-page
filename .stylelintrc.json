@@ -18,6 +18,8 @@
     "scss/at-rule-no-unknown": true,
     "scss/percent-placeholder-pattern": "^[a-zA-Z_][a-zA-Z0-9_]*$",
     "scss/at-import-no-partial-leading-underscore": null,
-    "number-max-precision": null
+    "number-max-precision": null,
+    "no-duplicate-selectors": null,
+    "no-irregular-whitespace": null
   }
 }
