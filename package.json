@@ -8,12 +8,12 @@
     "watch-main": "chokidar \"scss/main.scss\" \"scss/components/**/*.scss\" -c \"npm run compile-main\"",
     "watch-custom": "chokidar \"scss/custom.scss\" \"scss/components/**/*.scss\" -c \"npm run compile-custom\"",
     "start": "npm-run-all --parallel watch-main watch-custom",
-    "scss": "sass --watch scss/main.scss css/main.css",
-    "lint": "npx stylelint css/main.css scss/**/*.scss scss/components/**/*.scss",
-    "lint:fix": "npx stylelint --fix css/main.css scss/components/**/*.scss",
-    "format": "prettier --write scss/components/**/*.scss scss/main.scss css/main.css",
-    "watch": "nodemon -w scss/**/*.scss -w css/main.css --exec \"npm run format && npm run lint:fix && npm run scss || exit 1\"",
-    "start:full": "npm-run-all -p scss watch"
+    "sass": "sass --watch scss/main.scss css/main.css",
+    "lint": "npx stylelint css/**/*.css scss/**/*.scss",
+    "lint:fix": "npx stylelint --fix css/**/*.css scss/**/*.scss",
+    "format": "prettier --write scss/**/*.scss css/**/*.css",
+    "watch": "nodemon -w scss/**/*.scss  -w css/**/*.css --exec \"npm run format && npm run lint:fix && npm run sass || exit 1\"",
+    "start:full": "npm-run-all -p sass watch"
   },
   "keywords": [],
   "author": "",
