@@ -21,15 +21,5 @@
     "number-max-precision": null,
     "no-duplicate-selectors": null,
     "no-irregular-whitespace": null
-  },
-  "overrides": [
-    {
-      "files": ["./scss/main.scss"],
-      "rules": {
-        "function-url-no-scheme-relative": true,
-        "function-url-quotes": "always",
-        "function-no-unknown": true
-      }
-    }
-  ]
+  }
 }

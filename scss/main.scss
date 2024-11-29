@@ -1,12 +1,13 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-@import "./components/global";
-@import "./components/navigation";
-@import "./components/header";
-@import "./components/intro";
-@import "./components/contentSection";
-@import "./components/contentSection2";
-@import "./components/promotions";
-@import "./components/content3";
-@import "./components/footer";
-@import "./components/media_query";
+/** @format */
+@use "../node_modules/bootstrap/scss/bootstrap" as *; // Uvoz Bootstrap SCSS
+@use "../node_modules/bootstrap-icons/font/bootstrap-icons.css"; // Uvoz Bootstrap Icons CSS
+@use "./components/global"; // Uvoz globalnih stilova
+@use "./components/navigation"; // Uvoz stilova za navigaciju
+@use "./components/header"; // Uvoz stilova za header
+@use "./components/intro"; // Uvoz stilova za intro
+@use "./components/contentSection"; // Uvoz stilova za content section
+@use "./components/contentSection2"; // Uvoz stilova za drugi content section
+@use "./components/promotions"; // Uvoz stilova za promocije
+@use "./components/content3"; // Uvoz stilova za content3
+@use "./components/footer"; // Uvoz stilova za footer
+@use "./components/media_query"; // Uvoz stilova za media queries
